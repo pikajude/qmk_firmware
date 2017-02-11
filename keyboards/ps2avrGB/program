@@ -42,7 +42,7 @@ print('Product: %s' % (dev.iProduct), end='\n\n')
 
 print('Transferring control to bootloader... ', end='')
 
-dev.set_configuration()
+# dev.set_configuration()
 
 request_type = usb.util.build_request_type(
         usb.util.CTRL_OUT,
